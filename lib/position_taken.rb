@@ -1,11 +1,14 @@
 # code your #position_taken? method here!
 
-def position_taken(array, index)
-  if (array[index] == " " || array[index] == "")
+def position_taken(board, index)
+  if (board[index] == " " || board[index] == "")
+    return FALSE
+  
+  elsif (board[index] == nil)
     return FALSE
   
   else
-    return true
+    return TRUE
   
   end
   
